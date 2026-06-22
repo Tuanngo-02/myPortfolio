@@ -1,19 +1,21 @@
 import avatar from "../assets/images/avatar.png";
-
+import flic from "../assets/images/flic.png"
+import medicine from "../assets/images/Medicine-api.png"
+import onlineTest from "../assets/images/Exam.png"
 export const translations = {
   en: {
     personalInfo: {
       name: "Ngo Thanh Tuan",
       title: "Software Engineer",
-      subtitle: "Building digital products, brands, and experience.",
-      about: "I am a final-year student at the Faculty of Computer Science, Vietnam – Korea University of Information and Communication Technology (VKU) \n Major: Software Engineering. \n GPA: 3.3/4.0",
+      subtitle: "\"Small changes can have surprising results\"",
+      about: "I am a final-year student at the Faculty of Computer Science, Vietnam – Korea University of Information and Communication Technology (VKU). Major: Software Engineering. GPA: 3.3/4.0",
       imageUrl: avatar
     },
     contact: {
       email: "thanhtuanhht0211@gmail.com",
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
-      resumeUrl: "/resume.pdf"
+      github: "https://github.com/Tuanngo-02",
+      linkedin: "https://www.linkedin.com/in/thanhtuanngo/",
+      resumeUrl: "https://drive.google.com/drive/u/0/folders/14DF6fk0lw3CATLdt50AK8e2aWGLh0x5p"
     },
     skills: [
       "Java",
@@ -30,23 +32,23 @@ export const translations = {
       {
         id: 1,
         role: "Intern Backend Developer",
-        company: "Tech Corp",
-        duration: "2021 - Present",
-        description: "Led the frontend team in rebuilding the core platform using React and Next.js, improving performance by 40%.",
+        company: "Foreign languages and informatics center - VKU",
+        duration: "July 2025 - Sep 2025",
+        description: "",
       },
       {
         id: 2,
-        role: "Intern Backend Developer",
-        company: "Tech Corp",
-        duration: "2021 - Present",
-        description: "Led the frontend team in rebuilding the core platform using React and Next.js, improving performance by 40%.",
+        role: "Intern DevOps Engineer - AIOps Engineer",
+        company: "Xbrain",
+        duration: "Apr 2026 - Aug 2026",
+        description: "",
       },
       {
         id: 3,
-        role: "Web Developer",
-        company: "Digital Agency",
-        duration: "2018 - 2021",
-        description: "Developed and maintained multiple client websites using modern JavaScript frameworks and CSS architectures.",
+        role: "Intern Backend AI Engineer",
+        company: "FlyRank AI",
+        duration: "Jun 2026 - Present",
+        description: "",
       }
     ],
     blogs: [
@@ -61,30 +63,30 @@ export const translations = {
     projects: [
       {
         id: 1,
-        title: "E-Commerce Platform",
-        description: "A full-featured e-commerce platform built with React, Node.js, and Stripe.",
-        techStack: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
-        imageUrl: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
-        liveUrl: "https://example.com",
-        repoUrl: "https://github.com"
+        title: "FLIC Information and Management System",
+        description: "",
+        techStack: ["React", "Java", "MySQL", "Tailwind CSS", "Docker"],
+        imageUrl: flic,
+        liveUrl: "https://drive.google.com/file/d/1U5Rj8WvE985q8Kvp1Dm3Qrg4LpBx0t8s/view",
+        repoUrl: ""
       },
       {
         id: 2,
-        title: "Task Management Dashboard",
-        description: "A drag-and-drop task management tool with real-time updates.",
-        techStack: ["React", "TypeScript", "Tailwind CSS", "Firebase"],
-        imageUrl: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
-        liveUrl: "https://example.com",
-        repoUrl: "https://github.com"
+        title: "Medicine Service API",
+        description: "",
+        techStack: ["Spring Boot", "MySQL", "Docker", "Spring Security", "JWT", "Lombok", "Swagger"],
+        imageUrl: medicine,
+        liveUrl: "",
+        repoUrl: "https://github.com/Tuanngo-02/Medicine-Service-API"
       },
       {
         id: 3,
-        title: "AI Image Generator",
-        description: "An application that generates images from text prompts using OpenAI's DALL-E API.",
-        techStack: ["Next.js", "Tailwind CSS", "OpenAI API", "Prisma"],
-        imageUrl: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80",
-        liveUrl: "https://example.com",
-        repoUrl: "https://github.com"
+        title: "Online Test Program",
+        description: "",
+        techStack: ["Java swing", "JDBC"],
+        imageUrl: onlineTest,
+        liveUrl: "https://www.youtube.com/watch?v=nBCo-Ogp3yA",
+        repoUrl: "https://github.com/Tuanngo-02/ExamTest_UDP"
       }
     ],
     ui: {
@@ -105,82 +107,87 @@ export const translations = {
   },
   vi: {
     personalInfo: {
-      name: "John Doe",
-      title: "Lập trình viên Full Stack",
-      subtitle: "Xây dựng sản phẩm kỹ thuật số, thương hiệu và trải nghiệm.",
-      about: "Tôi là một kỹ sư phần mềm chuyên xây dựng các trải nghiệm kỹ thuật số xuất sắc. Hiện tại, tôi tập trung vào việc tạo ra các sản phẩm dễ tiếp cận, lấy con người làm trung tâm.",
-      imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
+      name: "Ngo Thanh Tuan",
+      title: "Kỹ sư Phần mềm",
+      subtitle: "\"Những thay đổi nhỏ có thể mang lại kết quả bất ngờ\"",
+      about: "Tôi là sinh viên năm cuối Khoa Khoa học Máy tính, Trường Đại học Công nghệ Thông tin và Truyền thông Việt - Hàn (VKU). Chuyên ngành: Kỹ thuật Phần mềm. GPA: 3.3/4.0",
+      imageUrl: avatar
     },
     contact: {
-      email: "hello@example.com",
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
-      resumeUrl: "/resume.pdf"
+      email: "thanhtuanhht0211@gmail.com",
+      github: "https://github.com/Tuanngo-02",
+      linkedin: "https://www.linkedin.com/in/thanhtuanngo/",
+      resumeUrl: "https://drive.google.com/drive/u/0/folders/14DF6fk0lw3CATLdt50AK8e2aWGLh0x5p"
     },
     skills: [
-      "JavaScript (ES6+)",
+      "Java",
       "TypeScript",
       "React",
-      "Node.js",
       "Tailwind CSS",
-      "Framer Motion",
-      "Next.js",
-      "GraphQL",
-      "PostgreSQL",
+      "Python",
+      "MySQL",
+      "AWS",
       "Git & GitHub"
     ],
     experience: [
       {
         id: 1,
-        role: "Kỹ sư Frontend Cao cấp",
-        company: "Tech Corp",
-        duration: "2021 - Hiện tại",
-        description: "Dẫn dắt đội ngũ frontend xây dựng lại nền tảng cốt lõi bằng React và Next.js, cải thiện hiệu suất lên tới 40%.",
+        role: "Thực tập sinh Phát triển Backend",
+        company: "Trung tâm Ngoại ngữ và Tin học - VKU",
+        duration: "Tháng 7/2025 - Tháng 9/2025",
+        description: "",
       },
       {
         id: 2,
-        role: "Lập trình viên Web",
-        company: "Digital Agency",
-        duration: "2018 - 2021",
-        description: "Phát triển và bảo trì nhiều trang web khách hàng sử dụng các framework JavaScript hiện đại và kiến trúc CSS.",
+        role: "Thực tập sinh Kỹ sư DevOps - Kỹ sư AIOps",
+        company: "Xbrain",
+        duration: "Tháng 4/2026 - Tháng 8/2026",
+        description: "",
+      },
+      {
+        id: 3,
+        role: "Thực tập sinh Kỹ sư Backend AI",
+        company: "FlyRank AI",
+        duration: "Tháng 6/2026 - Hiện tại",
+        description: "",
       }
     ],
     blogs: [
       {
         id: "1",
-        title: "Hiểu về React Server Components",
-        content: "React Server Components cho phép bạn render các component trên server, giảm lượng JavaScript gửi xuống client. Điều này giúp tải trang nhanh hơn và SEO tốt hơn. Trong bài viết này, chúng ta sẽ tìm hiểu cơ bản về RSC và cách sử dụng chúng trong ứng dụng Next.js.",
+        title: "Tìm hiểu về React Server Components",
+        content: "React Server Components cho phép bạn render các component ngay trên server, giảm thiểu lượng JavaScript gửi về client. Điều này giúp trang tải nhanh hơn và tối ưu SEO tốt hơn. Trong bài viết này, chúng ta sẽ khám phá các khái niệm cơ bản của RSC và cách áp dụng chúng vào ứng dụng Next.js của bạn.",
         imageUrl: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&q=80",
-        date: "2023-10-01"
+        date: "01/10/2023"
       }
     ],
     projects: [
       {
         id: 1,
-        title: "Nền tảng Thương mại Điện tử",
-        description: "Một nền tảng e-commerce đầy đủ tính năng được xây dựng bằng React, Node.js và Stripe.",
-        techStack: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
-        imageUrl: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
-        liveUrl: "https://example.com",
-        repoUrl: "https://github.com"
+        title: "Hệ thống Quản lý và Thông tin FLIC",
+        description: "",
+        techStack: ["React", "Java", "MySQL", "Tailwind CSS", "Docker"],
+        imageUrl: flic,
+        liveUrl: "https://drive.google.com/file/d/1U5Rj8WvE985q8Kvp1Dm3Qrg4LpBx0t8s/view",
+        repoUrl: ""
       },
       {
         id: 2,
-        title: "Bảng Quản lý Công việc",
-        description: "Công cụ quản lý tác vụ kéo thả với cập nhật theo thời gian thực.",
-        techStack: ["React", "TypeScript", "Tailwind CSS", "Firebase"],
-        imageUrl: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
-        liveUrl: "https://example.com",
-        repoUrl: "https://github.com"
+        title: "Medicine Service API",
+        description: "",
+        techStack: ["Spring Boot", "MySQL", "Docker", "Spring Security", "JWT", "Lombok", "Swagger"],
+        imageUrl: medicine,
+        liveUrl: "",
+        repoUrl: "https://github.com/Tuanngo-02/Medicine-Service-API"
       },
       {
         id: 3,
-        title: "Công cụ Tạo ảnh AI",
-        description: "Ứng dụng tạo hình ảnh từ văn bản sử dụng OpenAI DALL-E API.",
-        techStack: ["Next.js", "Tailwind CSS", "OpenAI API", "Prisma"],
-        imageUrl: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80",
-        liveUrl: "https://example.com",
-        repoUrl: "https://github.com"
+        title: "Chương trình Thi Trực tuyến",
+        description: "",
+        techStack: ["Java swing", "JDBC"],
+        imageUrl: onlineTest,
+        liveUrl: "https://www.youtube.com/watch?v=nBCo-Ogp3yA",
+        repoUrl: "https://github.com/Tuanngo-02/ExamTest_UDP"
       }
     ],
     ui: {
@@ -188,15 +195,15 @@ export const translations = {
       skills: "Kỹ năng",
       experience: "Kinh nghiệm",
       projects: "Dự án",
-      blog: "Blog",
+      blog: "Bài viết",
       contact: "Liên hệ",
       viewProjects: "Xem dự án",
-      downloadResume: "Tải Resume",
+      downloadResume: "Tải CV",
       skillsTitle: "Kỹ năng & Công nghệ",
-      experienceTitle: "Kinh nghiệm",
-      latestBlogs: "Bài viết Blog Mới nhất",
+      experienceTitle: "Kinh nghiệm làm việc",
+      latestBlogs: "Bài viết mới nhất",
       readMore: "Đọc thêm",
-      noBlogs: "Chưa có bài viết blog nào."
+      noBlogs: "Hiện tại chưa có bài viết nào."
     }
   }
 };

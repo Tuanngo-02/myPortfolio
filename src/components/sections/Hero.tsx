@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-20">
           <div className="flex-1 text-center lg:text-left">
-            <motion.h2 
+            <motion.h2
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
@@ -20,17 +20,17 @@ const Hero = () => {
             >
               Hi, my name is
             </motion.h2>
-            
-            <motion.h1 
+
+            <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
               className="text-5xl md:text-7xl font-bold text-slate-900 dark:text-white mb-6 tracking-tight"
             >
-              {personalInfo.name}.
+              {personalInfo.name}
             </motion.h1>
-            
-            <motion.h2 
+
+            <motion.h2
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
@@ -38,8 +38,8 @@ const Hero = () => {
             >
               {personalInfo.subtitle}
             </motion.h2>
-            
-            <motion.p 
+
+            <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.5 }}
@@ -47,20 +47,20 @@ const Hero = () => {
             >
               {personalInfo.about}
             </motion.p>
-            
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.6 }}
               className="flex justify-center lg:justify-start gap-4"
             >
-              <a 
-                href="#projects" 
+              <a
+                href="#projects"
                 className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-medium transition-colors shadow-lg shadow-blue-500/30"
               >
                 {t('ui.viewProjects')}
               </a>
-              <a 
+              <a
                 href={contact.resumeUrl}
                 target="_blank"
                 rel="noreferrer"
@@ -71,7 +71,7 @@ const Hero = () => {
             </motion.div>
           </div>
 
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
@@ -80,8 +80,8 @@ const Hero = () => {
             <div className="relative aspect-square">
               <div className="absolute inset-0 bg-blue-600 rounded-2xl translate-x-4 translate-y-4 opacity-20 dark:opacity-40"></div>
               {personalInfo.imageUrl && (
-                <img 
-                  src={personalInfo.imageUrl} 
+                <img
+                  src={personalInfo.imageUrl}
                   alt={personalInfo.name}
                   className="relative z-10 w-full h-full object-cover rounded-2xl shadow-xl"
                 />
@@ -90,7 +90,7 @@ const Hero = () => {
           </motion.div>
         </div>
 
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1.5 }}
